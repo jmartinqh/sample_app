@@ -13,5 +13,8 @@ class PagesController < ApplicationController
 def help
     @title = "Help"
   end
+def new
+    @title = "Sign up"
+  end
 
 end
